@@ -1,5 +1,6 @@
 body {
     background-color: #F4ECE3;
+    color: #3E3A37;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -10,6 +11,62 @@ h4 {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 8px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: 
+}
+
+.logo {
 
 }
 
+a {
+    text-decoration: none;
+    color: #3E3A37; 
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    display: flex;
+}
+
+.footer {
+   background-color: #F4ECE3; 
+} 
+
+
+button {
+    background-color: #8B9A84;
+}
+
+button:hover
+a:hover {
+    color: #6F7E69;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-image {
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
